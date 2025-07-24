@@ -1,4 +1,7 @@
-# AutoMower-BLE
+# AutoMower-BLE-HA-fork
+
+** NOTE - this is a fork of the original library to be specific to Home Assistant to mainly use BleakClientWrapper **
+
 
 This is an unofficial reverse engineered Husqvarna Automower Connect BLE library. This allows connecting and controlling an Automower without any accounts, cloud or network connection.
 

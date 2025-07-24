@@ -23,7 +23,8 @@ from automower_ble.protocol import (
 from automower_ble.models import MowerModels
 from automower_ble.error_codes import ErrorCodes
 
-from bleak import BleakScanner
+#from bleak import BleakScanner
+from homeassistant.components.bluetooth import BleakClientWrapper
 
 logger = logging.getLogger(__name__)
 
